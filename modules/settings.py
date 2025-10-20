@@ -31,7 +31,7 @@ def register_settings_handlers(bot):
         ])
         await callback_query.message.edit_media(
         InputMediaPhoto(
-          media="https://envs.sh/GVI.jpg",
+          media="https://files.catbox.moe/ixuknl.jpg",
           caption=caption
         ),
         reply_markup=keyboard
