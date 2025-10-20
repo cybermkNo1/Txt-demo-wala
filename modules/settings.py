@@ -21,13 +21,13 @@ def register_settings_handlers(bot):
             f"✪━━━━━━━━━━━━━━━━━━━━✪"
         )
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("📝 Caption Style", callback_data="caption_style_command"), InlineKeyboardButton("🖋️ File Name", callback_data="file_name_command")],
-            [InlineKeyboardButton("🌅 Thumbnail", callback_data="thummbnail_command")],
-            [InlineKeyboardButton("✍️ Add Credit", callback_data="add_credit_command"), InlineKeyboardButton("🔏 Set Token", callback_data="set_token_command")],
-            [InlineKeyboardButton("💧 Watermark", callback_data="wattermark_command")],
-            [InlineKeyboardButton("📽️ Video Quality", callback_data="quality_command"), InlineKeyboardButton("🏷️ Topic", callback_data="topic_command")],
-            [InlineKeyboardButton("🔄 Reset", callback_data="resset_command")],
-            [InlineKeyboardButton("🔙 Back to Main Menu", callback_data="back_to_main_menu")]
+            [InlineKeyboardButton("📝 ᴄᴀᴘᴛɪᴏɴ sᴛʏʟᴇ", callback_data="caption_style_command"), InlineKeyboardButton("🖋️ File Name", callback_data="file_name_command")],
+            [InlineKeyboardButton("🌅 ᴛʜᴜᴍʙɴᴀɪʟ", callback_data="thummbnail_command")],
+            [InlineKeyboardButton("✍️ ᴀᴅᴅ ᴄʀᴇᴅɪᴛ", callback_data="add_credit_command"), InlineKeyboardButton("🔏 Set Token", callback_data="set_token_command")],
+            [InlineKeyboardButton("💧 ᴡᴀᴛᴇʀᴍᴀʀᴋ", callback_data="wattermark_command")],
+            [InlineKeyboardButton("📽️ ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ", callback_data="quality_command"), InlineKeyboardButton("🏷️ Topic", callback_data="topic_command")],
+            [InlineKeyboardButton("🔄 ʀᴇsᴇᴛ", callback_data="resset_command")],
+            [InlineKeyboardButton("🔙 ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="back_to_main_menu")]
         ])
         await callback_query.message.edit_media(
         InputMediaPhoto(
