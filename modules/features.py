@@ -17,14 +17,14 @@ def register_feature_handlers(bot):
     async def feature_button(client, callback_query):
         caption = "**✨ My Premium BOT Features :**"
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("📌 Auto Pin Batch Name", callback_data="pin_command")],
-            [InlineKeyboardButton("💧 Watermark", callback_data="watermark_command"), InlineKeyboardButton("🔄 Reset", callback_data="reset_command")],
-            [InlineKeyboardButton("🖨️ Bot Working Logs", callback_data="logs_command")],
-            [InlineKeyboardButton("🖋️ File Name", callback_data="custom_command"), InlineKeyboardButton("🏷️ Title", callback_data="titlle_command")],
-            [InlineKeyboardButton("🎥 YouTube", callback_data="yt_command")],
-            [InlineKeyboardButton("🌐 HTML", callback_data="html_command")],
-            [InlineKeyboardButton("📝 Text File", callback_data="txt_maker_command"), InlineKeyboardButton("📢 Broadcast", callback_data="broadcast_command")],
-            [InlineKeyboardButton("🔙 Back to Main Menu", callback_data="back_to_main_menu")]
+            [InlineKeyboardButton("📌 ᴀᴜᴛᴏ ᴘɪɴ ʙᴀᴛᴄʜ ɴᴀᴍᴇ", callback_data="pin_command")],
+            [InlineKeyboardButton("💧 ᴡᴀᴛᴇʀᴍᴀʀᴋ", callback_data="watermark_command"), InlineKeyboardButton("🔄 ʀᴇsᴇᴛ", callback_data="reset_command")],
+            [InlineKeyboardButton("🖨️ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ʟᴏɢs", callback_data="logs_command")],
+            [InlineKeyboardButton("🖋️ ғɪʟᴇ ɴᴀᴍᴇ", callback_data="custom_command"), InlineKeyboardButton("🏷️ ᴛɪᴛʟᴇ", callback_data="titlle_command")],
+            [InlineKeyboardButton("🎥 ʏᴏᴜᴛᴜʙᴇ", callback_data="yt_command")],
+            [InlineKeyboardButton("🌐 ʜᴛᴍʟ", callback_data="html_command")],
+            [InlineKeyboardButton("📝 ᴛᴇxᴛ ғɪʟᴇ", callback_data="txt_maker_command"), InlineKeyboardButton("📢 ʙʀᴏᴀᴅᴄᴀsᴛ", callback_data="broadcast_command")],
+            [InlineKeyboardButton("🔙 ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="back_to_main_menu")]
         ])
         await callback_query.message.edit_media(
             InputMediaPhoto(
