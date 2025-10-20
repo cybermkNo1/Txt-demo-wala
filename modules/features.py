@@ -28,7 +28,7 @@ def register_feature_handlers(bot):
         ])
         await callback_query.message.edit_media(
             InputMediaPhoto(
-                media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+                media="https://files.catbox.moe/ixuknl.jpg",
                 caption=caption
             ),
             reply_markup=keyboard
