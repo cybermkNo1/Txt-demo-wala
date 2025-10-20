@@ -21,11 +21,11 @@ def register_settings_handlers(bot):
             f"✪━━━━━━━━━━━━━━━━━━━━✪"
         )
         keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("📝 ᴄᴀᴘᴛɪᴏɴ sᴛʏʟᴇ", callback_data="caption_style_command"), InlineKeyboardButton("🖋️ File Name", callback_data="file_name_command")],
+            [InlineKeyboardButton("📝 ᴄᴀᴘᴛɪᴏɴ sᴛʏʟᴇ", callback_data="caption_style_command"), InlineKeyboardButton("🖋️ ғɪʟᴇ ɴᴀᴍᴇ", callback_data="file_name_command")],
             [InlineKeyboardButton("🌅 ᴛʜᴜᴍʙɴᴀɪʟ", callback_data="thummbnail_command")],
-            [InlineKeyboardButton("✍️ ᴀᴅᴅ ᴄʀᴇᴅɪᴛ", callback_data="add_credit_command"), InlineKeyboardButton("🔏 Set Token", callback_data="set_token_command")],
+            [InlineKeyboardButton("✍️ ᴀᴅᴅ ᴄʀᴇᴅɪᴛ", callback_data="add_credit_command"), InlineKeyboardButton("🔏 sᴇᴛ ᴛᴏᴋᴇɴ", callback_data="set_token_command")],
             [InlineKeyboardButton("💧 ᴡᴀᴛᴇʀᴍᴀʀᴋ", callback_data="wattermark_command")],
-            [InlineKeyboardButton("📽️ ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ", callback_data="quality_command"), InlineKeyboardButton("🏷️ Topic", callback_data="topic_command")],
+            [InlineKeyboardButton("📽️ ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ", callback_data="quality_command"), InlineKeyboardButton("🏷️ ᴛᴏᴘɪᴄ", callback_data="topic_command")],
             [InlineKeyboardButton("🔄 ʀᴇsᴇᴛ", callback_data="resset_command")],
             [InlineKeyboardButton("🔙 ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="back_to_main_menu")]
         ])
