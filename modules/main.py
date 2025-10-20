@@ -30,10 +30,10 @@ bot = Client(
 
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
 keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🎙️ Commands", callback_data="cmd_command")],
-            [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
-            [InlineKeyboardButton("💳 Suscribation", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton("🎙️ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cmd_command")],
+            [InlineKeyboardButton("💎 ғᴇᴀᴛᴜʀᴇs", callback_data="feat_command"), InlineKeyboardButton("⚙️ sᴇᴛᴛɪɴɢs", callback_data="setttings")],
+            [InlineKeyboardButton("💳 sᴜsᴄʀɪʙᴀᴛɪᴏɴ", callback_data="upgrade_command")],
+            [InlineKeyboardButton(text="📞 ᴄᴏɴᴛᴀᴄᴛ", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ ʀᴇᴘᴏ", url="https://github.com/nikhilsainiop/saini-txt-direct")],
         ])      
 
 @bot.on_message(filters.command("start"))
