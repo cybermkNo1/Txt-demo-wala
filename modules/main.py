@@ -30,10 +30,10 @@ bot = Client(
 
 # .....,.....,.......,...,.......,....., .....,.....,.......,...,.......,.....,
 keyboard = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🎙️ Commands", callback_data="cmd_command")],
-            [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("⚙️ Settings", callback_data="setttings")],
-            [InlineKeyboardButton("💳 Suscribation", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct")],
+            [InlineKeyboardButton("🎙️ ᴄᴏᴍᴍᴀɴᴅs", callback_data="cmd_command")],
+            [InlineKeyboardButton("💎 ғᴇᴀᴛᴜʀᴇs", callback_data="feat_command"), InlineKeyboardButton("⚙️ sᴇᴛᴛɪɴɢs", callback_data="setttings")],
+            [InlineKeyboardButton("💳 sᴜsᴄʀɪʙᴀᴛɪᴏɴ", callback_data="upgrade_command")],
+            [InlineKeyboardButton(text="📞 ᴄᴏɴᴛᴀᴄᴛ", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ ʀᴇᴘᴏ", url="https://github.com/nikhilsainiop/saini-txt-direct")],
         ])      
 
 @bot.on_message(filters.command("start"))
@@ -45,11 +45,11 @@ async def start(bot, m: Message):
     mention = user.mention
     if m.chat.id in AUTH_USERS:
         caption = (
-            f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n"
-            f"➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n"
-            f"➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n"
-            f"➠ For Guide Use button - **✨ Commands** 📖\n\n"
-            f"➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [{CREDIT}](tg://openmessage?user_id={OWNER}) 🦁"
+            f"ʜᴇʟʟᴏ ᴅᴇᴀʀ 👋!\n\n"
+            f"➠ ɪ ᴀᴍ ᴀ ᴛᴇxᴛ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ʙᴏᴛ\n\n"
+            f"➠ ᴄᴀɴ ᴇxᴛʀᴀᴄᴛ ᴠɪᴅᴇᴏs & ᴘᴅғs ғʀᴏᴍ ʏᴏᴜʀ ᴛᴇxᴛ ғɪʟᴇ ᴀɴᴅ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ!\n\n"
+            f"➠ ғᴏʀ ɢᴜɪᴅᴇ ᴜsᴇ ʙᴜᴛᴛᴏɴ - **ᴄᴏᴍᴍᴀɴᴅs** \n\n"
+            f"➠ ᴍᴀᴅᴇ ʙʏ : [{CREDIT}](tg://openmessage?user_id={OWNER}) 🦁"
         )
     else:
         caption = (
@@ -62,7 +62,7 @@ async def start(bot, m: Message):
         )
     await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://iili.io/KuCBoV2.jpg",
+        photo="https://files.catbox.moe/2s2tq2.jpg",
         caption=caption,
         reply_markup=keyboard
     )
@@ -83,7 +83,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://files.catbox.moe/f05xij.jpg",
         caption=caption
       ),
       reply_markup=keyboard
