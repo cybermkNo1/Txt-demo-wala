@@ -15,9 +15,9 @@ def register_settings_handlers(bot):
         user_id = callback_query.from_user.id
         caption = (
             f"✪━━━━━━━━━★━━━━━━━━━✪\n"
-            f"👑 <b>Welcome [{first_name}](tg://user?id={user_id})</b> 👑\n"
+            f"👑 <b>ᴡᴇʟᴄᴏᴍᴇ [{first_name}](tg://user?id={user_id})</b> 👑\n"
             f"✪━━━━━━━━━★━━━━━━━━━✪\n"
-            f"⚙️ <b>Choose Button below to Set Settings</b>\n"
+            f"⚙️ <b>ᴄʜᴏᴏsᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ sᴇᴛ sᴇᴛᴛɪɴɢs</b>\n"
             f"✪━━━━━━━━━━━━━━━━━━━━✪"
         )
         keyboard = InlineKeyboardMarkup([
